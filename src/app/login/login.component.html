@@ -1,0 +1,19 @@
+<div class="container">
+  <div class="row justify-content-center margin">  
+    <div class="col align-self-center col-md-4">
+      <div class="card">
+        <div class="card-body">
+          <label for="">Email</label>
+          <input type="email" class="form-control" [(ngModel)]='loginParams.email'/>
+          <br>
+          <label for="">Password</label>
+          <input type="password" class="form-control" [(ngModel)]='loginParams.password'/>
+          <hr>
+          <button (click)="login()" class="btn btn-warning btn-block"> Login! </button>
+          <button (click)="facebookLogin()" class="btn btn-primary btn-block"> Login Con Facebook </button>
+          <button class="btn btn-default btn-block"> Cancelar! </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

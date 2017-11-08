@@ -1,0 +1,32 @@
+<div class="alert alert-secondary">
+    <a routerLink="/lugares">Lugares</a> / Contacto
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-8">
+      <label>Nombre</label>
+      <input class="form-control" type="text">
+      <br>
+      <label>Correo</label>
+      <input class="form-control" type="email">
+      <br>
+      <label for=""> Mensaje </label>
+      <textarea name="" class="form-control" id="" cols="30" rows="10"></textarea>
+      <hr>
+    
+      <button class="btn btn-primary"> Enviar </button>
+      <button class="btn btn-light"> Cancelar </button>
+  
+    </div>
+    <div class="col-sm-4">
+        <div class="card box-shadow" style="width: 20rem;">
+            <agm-map [latitude]="lat" [longitude]="lng">
+                <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
+            </agm-map>
+            <div class="card-body">
+              <p class="card-text">PlatziSquare is a platform built in Course of Angular 4, teached by: <strong> Eduardo Ibarra </strong> on Platzi </p>
+            </div>
+          </div>  
+    </div>
+  </div>
+</div>

@@ -1,0 +1,43 @@
+/* You can add global styles to this file, and also import other style files */
+agm-map {
+  height: 300px;
+}
+
+.numero_par{
+  background: aliceblue;
+  color: blue;
+}
+
+.box-shadow {
+  -webkit-box-shadow: 6px 9px 21px -8px rgba(0,0,0,0.75);
+  -moz-box-shadow: 6px 9px 21px -8px rgba(0,0,0,0.75);
+  box-shadow: 6px 9px 21px -8px rgba(0,0,0,0.75);
+}
+.right {
+  float: right;
+  cursor: pointer;
+}
+
+#cuadrado {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}
+
+.logo-star {
+  float:right;
+  color: #ffc107;
+}
+
+.padding {
+  padding: 10px;
+  margin: 10px;
+}
+
+.margin {
+  margin-top: 20px;
+}
+.user-email{
+  color: white;
+  float:left;
+}
